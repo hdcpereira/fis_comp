@@ -1,7 +1,7 @@
 using Plots
 
 function angular_frequency(k, m)
-    return sqrt(m/k)
+    return sqrt(k/m)
 end 
 
 function harmonic_oscilator_pos(t, ω, A, ϕ)
